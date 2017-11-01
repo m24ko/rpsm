@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: #333333 url(../img/background.png) no-repeat center 70%;
+  background: #333333 url(../img/background.png) no-repeat center 85%;
   background-size: 10%;
 }
 body {
@@ -57,6 +57,10 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 2rem;
+}
+
+.li-test-color {
+  color: #000;
 }
 
 

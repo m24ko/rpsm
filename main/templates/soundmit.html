@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% set active_page = "soundmit" %}
+
+{% block inner_cover %}
+{% from "includes/_formhelpers.html" import render_field %}
+<div class="inner cover">
+    <p class="lead">everybody has a wish. submit yours</p>
+    <form method="post", action="">
+        <div class="form-group">
+            {{render_field(form.youtube_url, autofocus=true, class_="form-control")}}
+        </div>
+        <input type="submit" class="btn btn-sm btn-warning" value="soundmit">
+    </form>
+</div>
+{% endblock %}

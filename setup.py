@@ -5,8 +5,8 @@ except ImportError:
 config = {
     'description': 'modern jukebox',
     'author': 'Marko Suker, Vladimir Vulin',
-    'url': 'https://github.com/m24ko/rpsm',
-    'download_url': 'https://github.com/m24ko/rpsm',
+    'url': 'https://github.com/msuker/rpsm',
+    'download_url': 'https://github.com/msuker/rpsm',
     'author_email': 'email@gmail.com',
     'version': '0.1',
     'install_requires': [''],
